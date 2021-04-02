@@ -1,0 +1,410 @@
+
+html,body{
+	height: 100%;
+	font-family: "Cabin", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	margin-bottom: 10px;
+	margin-top:20px;
+	background-color:#FFFFFF;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 400;
+	font-family: "Lora", serif;
+}
+p{
+	font-size: 18px;
+	font-family: "Cabin", sans-serif;
+	font-weight: 400;
+}
+.about{
+	color:#000084;
+}
+.about hr{
+	width: 250px;
+	border-top:2px solid #000084;
+}
+section {
+	min-height: 600px;
+	background-color: #F5F5F5;
+	color: #000084; 
+}
+
+.Portfolio{
+	background-color: #F5F5F5;
+	color:#000084;
+}
+.Portfolio hr{
+
+	width: 250px;
+	border-top: 1px solid #000084;
+}
+.footer-section{
+	width: 100%;
+	background-color:#000084; 
+	color:#FFFFFF;
+}
+.footer-section .container .row{
+	padding-top: 70px;
+	padding-bottom: 70px
+}
+.footer-section .container .row .col-md-2 .about-me .ft-logo a{
+	font-size: 15px;
+	font-family: "Cabin", sans-serif;
+	font-weight: 300;
+	color: #FFFFFF;
+}
+.footer-section .container .row .col-md-2 .about-me hr {
+	width: 80px;
+	border-top:3px solid #ff8000;
+	padding-left: 30px;
+	padding-top: -10px;
+}
+.footer-section .container .row .col-md-3 .ft-kontak h3{
+	font-size: 23px;
+	font-weight: 300;
+	font-family:  "Lora", serif;
+	padding-top: 40px;
+	color: #FFFFFF;
+}
+.footer-section .container .row .col-md-3 .ft-kontak p{
+	font-size: 15px;
+	font-family: "Cabin", sans-serif;
+	font-weight: 300;
+	color: #FFFFFF;
+	padding-left: 37px;
+}
+.footer-section .container .row .col-md-3 .ft-kontak hr {
+	width: 150px;
+	border-top:3px solid #ff8000;
+	padding-left: 30px;
+	padding-top: -10px;
+}
+.footer-section .container .row .col-md-2 .about-me h3{
+	list-style: none;
+	font-size: 23px;
+	font-family:  "Lora", serif;
+	font-weight: 300;
+	color: #FFFFFF; 
+	padding-left: 2px;
+}
+.footer-section .container .row .col-md-2 .about-me .ft-list {
+	list-style: none;
+	font-size: 15px;
+	font-family:  "Lora", serif;
+	font-weight: 300;
+	color: #FFFFFF; 
+	padding-left: -20px;
+}
+.footer-section .container .row .col-md-2 .about-me ul .list-1{
+	list-style: none;
+	font-size: 15px;
+	font-family: "Cabin", sans-serif;
+	font-weight: 300;
+	color: #FFFFFF; 
+	
+
+}
+.footer-section .container .row .col-md-2 .about-me ul .list-1 a{
+	list-style: none;
+	font-size: 15px;
+	font-family: "Cabin", sans-serif;
+	font-weight: 300;
+	color: #FFFFFF; 
+	
+}
+.footer-section .container .row .col-md-2 .about-me  .collapse a{
+	list-style: none;
+	font-size: 15px;
+	font-family: "Cabin", sans-serif;
+	font-weight: 300;
+	color: #FFFFFF; 		
+}
+.footer-section .container .row .col-md-3 .ft-sosmed  h3{
+	list-style: none;
+	font-size: 23px;
+	font-family:  "Lora", serif;
+	font-weight: 300;
+	color: #FFFFFF; 
+	padding-top: 40px;
+	padding-left: 2px;		
+}
+.footer-section .container .row .col-md-3 .ft-sosmed hr {
+	width: 150px;
+	border-top:3px solid #ff8000;
+	padding-left: 30px;
+	padding-top: -10px;
+}
+.footer-section .container .row .col-md-3 .ft-sosmed .icon-sosmed a {
+	padding-left: 13px;
+	padding-right: 13px;
+	padding-top: 10px;
+}
+.footer-section .container .row .col-md-4 .ft-gmap  h3{
+	list-style: none;
+	font-size: 23px;
+	font-family:  "Lora", serif;
+	font-weight: 300;
+	color: #FFFFFF; 
+	padding-top: 40px;
+	padding-left: 2px;	
+}
+.footer-section .container .row .col-md-4 .ft-gmap hr {
+	width: 75px;
+	border-top:3px solid #ff8000;
+	padding-left: 30px;
+	padding-top: -10px;
+}
+.footer-section .container .row .col-md-4 .ft-gmap iframe {
+	width: 300px;
+	height: 150px;
+	border:5px;
+	padding-left: 40px;
+	
+}
+
+.navbar{
+	color: #000085;
+	margin-bottom: : -20px;
+	font-size: 18px;
+	font-family: "Lora", serif;
+	font-weight: 400;
+}
+
+.navbar-inverse{
+	color: #000084;
+}
+.Portfofile hr{
+	width: 150px;
+	border-top:2px solid #000084;
+}
+.carousel slide {
+	margin-top: -100px;
+}
+.carousel-item .display-4 {
+	margin-top: -500px;
+	color: #F5F5F5;
+	
+}
+
+.carousel-item hr {
+	border-color: #000084;
+	width: 70px;
+	border-width: 3px;
+	text-align: left;
+}
+.carousel-item .btn {
+	border-color: #000084;
+	border:none;
+	border-radius: 25px;
+	padding-left: 25px;
+	padding-right: 25px;
+	margin-top: 40px;
+
+}
+.container-art{
+	background-color: #FFFFFF;
+}
+
+ #button { padding: .5em 1em; text-decoration: none; }
+ #effect { width: 240px; height: 300px; padding: 0.4em; position: relative; background: #fff; }
+ #effect h3 { margin: 0; padding: 0.4em; text-align: center; }
+
+
+ .navbar-inverse a {
+ 	font-size: 18px;
+ 	font-family: "Cabin", sans-serif;s
+	
+ }
+ .navbar-inverse after{
+ 	font-size: 18px;
+ 	color: #000084;
+ 	font-family: "Cabin", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+ }
+
+ #wrapper #accordion {
+ 	padding-top: 20px;
+ }
+ #wrapper #accordion .popular-post{
+ 	width: 200px;
+ 	padding-left: 5px;
+ 	padding-top: 5px;
+ 	padding-bottom: 3px;
+ 	background-color: #FFFFFF;
+ }
+ #wrapper #accordion .popular-post ul{
+ 	padding-left: 10px;
+ }
+ #wrapper #accordion .popular-post li{
+ 	list-style: none;
+ 	font-size: 14px;
+	font-family: "Cabin", sans-serif;
+	font-weight: 400;
+	color: #000084;
+
+ }
+ #wrapper #accordion .popular-post li a{
+ 	list-style: none;
+ 	font-size: 14px;
+	font-family: "Cabin", sans-serif;
+	font-weight: 400;
+	color: #000084;
+	padding-left: 4px;
+ }
+ #wrapper #accordion .arsip {
+ 	width: 200px;
+ 	padding-left: 5px;
+ 	padding-top: 5px;
+ 	padding-bottom: 3px;
+ 	background-color: #FFFFFF;
+ }
+ #wrapper #accordion .arsip ul{
+ 	padding-left: 10px;
+ }
+ #wrapper #accordion .arsip li{
+ 	list-style: none;
+ 	font-size: 14px;
+	font-family: "Cabin", sans-serif;
+	font-weight: 400;
+	color: #000084;
+ }
+ #wrapper #accordion .arsip li a{
+ 	list-style: none;
+ 	font-size: 14px;
+	font-family: "Cabin", sans-serif;
+	font-weight: 400;
+	color: #000084;
+	padding-left: 4px;
+ }
+ #wrapper #accordion .agenda  {
+ 	width: 200px;
+ 	padding-left: 5px;
+ 	padding-top: 5px;
+ 	padding-bottom: 3px;
+ 	background-color: #FFFFFF;
+ }
+ #wrapper #accordion .agenda ul{
+ 	padding-left: 10px;
+ }
+ #wrapper #accordion .agenda li {
+ 	list-style: none;
+ 	font-size: 14px;
+	font-family: "Cabin", sans-serif;
+	font-weight: 400;
+	color: #000084;
+ }
+ #wrapper #accordion .agenda li a{
+ 	list-style: none;
+ 	font-size: 14px;
+	font-family: "Cabin", sans-serif;
+	font-weight: 400;
+	color: #000084;
+	padding-left: 4px;
+ }
+ 
+  .check-tag h4 {
+ 	width: 200px;
+ 	padding-left: 5px;
+ 	padding-top: 9px;
+ 	padding-bottom: 9px;
+ 	background-color: #FFFFFF;
+ }
+
+
+
+
+ section .konten .container .row {
+ 	background-color: #F5F5F5;
+	color:#000084;
+
+ }
+ .col-md-8 .content-video .judul-konten h4 {
+ 	width: 800px;
+ 	padding-left: 5px;
+ 	padding-top: 5px;
+ 	padding-bottom: 3px;
+ 	background-color: #FFFFFF;
+	color:#000084;
+ }
+
+ .contax .container .row .col-md-4 .about-contac {
+	width: 300px;
+	color: #000084;
+	background-color:  #FFFFFF;
+	text-align: justify;
+	border:5px;
+	padding-left: 40px;
+	padding-top: 10px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+	
+}
+ .contax .container .row .col-md-4 .gmap a{
+	width: 300px;
+	color: #000084;
+	background-color:  #FFFFFF;
+	border:5px;
+	padding-left: 40px;
+	padding-top: 10px;
+	padding-right: 178px;
+	padding-bottom: 10px;	
+}
+.contax .container .row . col-md-12 hr{
+	width: 250px;
+	border-top:4px solid #000084;
+}
+
+
+
+
+.sejarah .container .row .col-md-8 p{
+	text-align: justify;
+	background-color: #FFFFFF;
+	color: #000084;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+
+
+
+.tujuan .container .row .col-md-8 p{
+	list-style: none;
+	font-size: 17px;
+	text-align: justify;
+	background-color: #FFFFFF;
+	color: #000084;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	padding-right: 40px;
+	padding-left: 40px;
+}
+.tujuan .container .row .col-md-8 h5{
+	font-size: 19px;
+	text-align: justify;
+	color: #000084;
+}
+
+
+
+
+.akreditasi .container .row .col-md-8 p{
+	list-style: none;
+	font-size: 18px;
+	text-align: justify;
+	background-color: #FFFFFF;
+	color: #000084;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	padding-right: 40px;
+	padding-left: 40px;
+}
+.akreditasi .container .row .col-md-8 a{
+	font-size: 18px;
+	text-align: justify;
+	background-color: #FFFFFF;
+	color: #000084;
+}
